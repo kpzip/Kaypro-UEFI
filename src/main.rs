@@ -1,6 +1,9 @@
 #![no_main]
 #![no_std]
 
+mod z80;
+mod memory;
+
 use core::time::Duration;
 use log::info;
 use uefi::prelude::*;
