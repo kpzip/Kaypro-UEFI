@@ -1,8 +1,9 @@
 #![no_main]
 #![no_std]
 
-mod z80;
+extern crate alloc;
 mod memory;
+mod z80;
 
 use core::time::Duration;
 use log::info;

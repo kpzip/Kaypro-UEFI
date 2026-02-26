@@ -23,6 +23,4 @@ dependencies = [
 ]
 
 [tasks.default]
-dependencies = [
-    "run"
-]
+alias = "build"
